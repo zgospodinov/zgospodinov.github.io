@@ -1,0 +1,50 @@
+:root {
+    --main-links-color: rgba(255, 255, 255, 0.63);
+    --link-bottom-border-color-onhover: rgba(248, 110, 68, 0.911);
+    --link-bg-light: rgba(247, 135, 101, 0.11);
+    --link-bg-light-2: rgba(150, 68, 44, 0.274);
+}
+
+html {
+    overflow-y: scroll;
+}
+
+.mybg-light {
+    background-color: rgba(255, 255, 255, 0.247);
+}
+
+/* info-buttons */
+.accordion .card .card-header .btn {
+    color: var(--main-links-color);
+    background-color: transparent;
+    border-color: var(--link-bottom-border-color-onhover);
+    outline-color: transparent;
+    transition: color 0.2s;
+}
+
+.accordion .card .card-header .btn:hover {
+    color: white;
+}
+
+
+/* collapsable info part */
+.accordion .card .collapse .card-body {
+    background-color: var(--link-bg-light-2);
+    border-bottom: 1px solid var(--main-links-color);
+}
+
+/* social media icons*/
+#git,
+#facebook,
+#linkedin,
+#stackoverflow {
+    color: var(--main-links-color);
+    transition: color 0.2s;
+}
+
+#git:hover,
+#facebook:hover,
+#linkedin:hover,
+#stackoverflow:hover {
+    color: var(--link-bottom-border-color-onhover);
+}

@@ -1,0 +1,98 @@
+:root {
+    --main-links-color: rgba(255, 255, 255, 0.63);
+    --link-bottom-border-color-onhover: rgba(248, 110, 68, 0.911);
+    --link-bg-light: rgba(247, 135, 101, 0.11);
+}
+
+
+
+html,
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+html{
+    /* background: url('imgs/bg8.jpg') no-repeat center center;
+    /* height: auto;
+    max-width: 100%; */
+    /* filter: opacity(0.95); */
+    /* background-size: cover; */
+    /* color: white;  */
+}
+
+
+
+body {
+    background: url('imgs/bg8.jpg')  top;
+    height: auto;
+    max-width: 100%;
+    -webkit-filter: opacity(0.95);
+            filter: opacity(0.95);
+    background-size: cover;
+    color: white;
+
+    /* display: block; */
+}
+
+/* navigation */
+.nab-back {
+    /* background-color: rgba(255, 255, 255, 0.329); */
+    background-color: transparent;
+}
+
+#fa-hamburger {
+    padding: 4px;
+    color: var(--main-links-color);
+    border: 1px solid var(--main-links-color);
+    border-radius: 2px;
+    -webkit-transition: color 0.2s, border-color 0.2s;
+    transition: color 0.2s, border-color 0.2s;
+}
+
+#fa-hamburger:hover {
+    color: white;
+    border-collapse: white;
+}
+
+#logo {
+    color: var(--main-links-color);
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+    padding: 1rem;
+}
+
+#logo:hover {
+    color: #fff;
+    border-bottom: 2px solid var(--link-bottom-border-color-onhover);
+    background-color: var(--link-bg-light);
+}
+
+.navbar .collapse .navbar-nav .nav-item {
+    color: var(--main-links-color);
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+    padding: 1rem;
+}
+
+.navbar .collapse .navbar-nav .nav-item:hover {
+    color: #fff;
+    border-bottom: 2px solid var(--link-bottom-border-color-onhover);
+    background-color: var(--link-bg-light);
+}
+
+/* https://mdbootstrap.com/components/bootstrap-hamburger-menu/ */
+.navbar-toggler.toggler-example {
+    cursor: pointer;
+}
+
+.dark-blue-text {
+    color: var(--main-links-color);
+}
+
+.navbar-toggler.toggler-example.dark-blue-text.fa:hover {
+    cursor: pointer;
+    background-color: var(--link-bg-light)
+}

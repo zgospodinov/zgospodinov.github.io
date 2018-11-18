@@ -17,13 +17,23 @@ main{
 
 /* Modals */
 /* Style the Image Used to Trigger the Modal */
-#myImg {
+#myImg,
+#myImg1{
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
+#myImg:hover,
+#myImg1:hover {opacity: 0.7;}
 
 /* The Modal (background) */
 .modal {

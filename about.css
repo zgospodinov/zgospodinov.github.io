@@ -47,3 +47,7 @@ html {
 #stackoverflow:hover {
     color: var(--link-bottom-border-color-onhover);
 }
+
+main{
+    margin-top: 7rem;
+}

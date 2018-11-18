@@ -9,7 +9,7 @@ main{
 }
 
 footer{
-    background-color: rgba(94, 54, 88, 0.267);   
+    background-color: rgba(71, 71, 71, 0.733);   
 }
 
 .footer {
@@ -37,4 +37,8 @@ footer{
 
 .footer ul li a:hover{
     color:rgba(247, 240, 240, 0.849);;
+}
+
+main{
+    margin-bottom: 3rem;
 }

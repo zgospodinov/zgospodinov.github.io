@@ -26,7 +26,6 @@ html {
     color: white;
 }
 
-
 /* collapsable info part */
 .accordion .card .collapse .card-body {
     background-color: var(--link-bg-light-2);

@@ -23,9 +23,6 @@ html {
   width: 100%; */
 }
 
-
-
-
 @media only screen and (min-width:576px) {
   html {
     font-size: 1rem;
@@ -38,16 +35,12 @@ html {
     -webkit-filter: opacity(0.95);
     filter: opacity(0.95);
     background-size: cover;
-    color: white;
-
-    /* display: block; */
+    color: white; 
   }
-
 
   #about-message p {
     margin-bottom: 0.8rem;
   }
-
 
   #welcome {
     font-size: 3rem;
@@ -71,17 +64,13 @@ html {
     -webkit-filter: opacity(0.95);
     filter: opacity(0.95);
     background-size: cover;
-    color: white;
-
-    /* display: block; */
+    color: white;   
   }
 
   #contact-container {
     margin: auto;
     width: 5rem;
   }
-
-
 }
 
 @media only screen and (min-width:992px) {
@@ -97,8 +86,6 @@ html {
     filter: opacity(0.95);
     background-size: cover;
     color: white;
-
-    /* display: block; */
   }
 
   #contact-container {

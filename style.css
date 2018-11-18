@@ -36,6 +36,9 @@ body {
     border-radius: 2px;
     -webkit-transition: color 0.2s, border-color 0.2s;
     transition: color 0.2s, border-color 0.2s;
+    -moz-transition: color 0.2s, border-color 0.2s;
+    -ms-transition: color 0.2s, border-color 0.2s;
+    -o-transition: color 0.2s, border-color 0.2s;
 }
 
 #fa-hamburger:hover {
@@ -49,6 +52,9 @@ body {
     -webkit-transition: border-bottom 0.2s, color 0.2s;
     transition: border-bottom 0.2s, color 0.2s;
     padding: 1rem;
+    -moz-transition: border-bottom 0.2s, color 0.2s;
+    -ms-transition: border-bottom 0.2s, color 0.2s;
+    -o-transition: border-bottom 0.2s, color 0.2s;
 }
 
 #logo:hover {
@@ -63,6 +69,9 @@ body {
     -webkit-transition: border-bottom 0.2s, color 0.2s;
     transition: border-bottom 0.2s, color 0.2s;
     padding: 1rem;
+    -moz-transition: border-bottom 0.2s, color 0.2s;
+    -ms-transition: border-bottom 0.2s, color 0.2s;
+    -o-transition: border-bottom 0.2s, color 0.2s;
 }
 
 .navbar .collapse .navbar-nav .nav-item:hover {
@@ -83,4 +92,4 @@ body {
 .navbar-toggler.toggler-example.dark-blue-text.fa:hover {
     cursor: pointer;
     background-color: var(--link-bg-light)
-}\
+}

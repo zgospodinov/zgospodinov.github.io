@@ -14,13 +14,10 @@ html {
 #contact-container {
   margin: auto;
   width: 85%;
-
 }
 
-#contact-form {
-  /* margin: 0;
-  float: left;
-  width: 100%; */
+.footer{
+  font-size: 1.1rem;
 }
 
 @media only screen and (min-width:576px) {
@@ -36,6 +33,10 @@ html {
     filter: opacity(0.95);
     background-size: cover;
     color: white; 
+  }
+
+  .footer{
+    font-size: 1.2rem;
   }
 
   #about-message p {
@@ -67,6 +68,10 @@ html {
     color: white;   
   }
 
+  .footer{
+    font-size: 1.2rem;
+  }
+
   #contact-container {
     margin: auto;
     width: 5rem;
@@ -86,6 +91,10 @@ html {
     filter: opacity(0.95);
     background-size: cover;
     color: white;
+  }
+
+  .footer{
+    font-size: 1.2rem;
   }
 
   #contact-container {

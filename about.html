@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="contactStyle.css">
     <link rel="stylesheet" href="fonsize.css">
 
-    <title>About me</title>
+    <title>About me/CV</title>
 </head>
 
 <body class="img-fluid">
@@ -28,17 +28,26 @@
                 <nav class="navbar navbar-expand-lg navbar-light nab-back mb-1">
                     <a id="logo" class="navbar-brand" href="index.html">zGround</a>
                     <button class="navbar-toggler toggler-btn" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <!-- <span class="dark-blue-text"><i class="fa fa-bars fa-1x"></i></span> -->
-                        <i id="fa-hamburger" class="fa fa-bars fa-lg" aria-hidden="true"></i>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                        <div class="navbar-nav ">
-                            <a class="nav-item nav-link pt-3 text-uppercase" href="about.html">About</a>
-                            <a class="nav-item nav-link pt-3 text-uppercase" href="contact.html">Contact</a>
-
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="dark-blue-text"><i class="fa fa-bars fa-1x"></i></span> -->
+                    <i id="fa-hamburger" class="fa fa-bars fa-lg" aria-hidden="true"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle text-uppercase pt-3" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                About
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="about.html">CV</a>
+                                <a class="dropdown-item" href="#">Certificates</a>                                    
+                            </div>
                         </div>
+                        <a class="nav-item nav-link pt-3 text-uppercase" href="contact.html">Contact</a>
+
                     </div>
+                </div>
                 </nav>
             </div>
         </div>

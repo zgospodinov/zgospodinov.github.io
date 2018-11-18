@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex: 1;
+}
+
+footer{
+    background-color: rgba(94, 54, 88, 0.267);   
+}
+
+.footer {
+    
+    margin: 0 auto;
+    padding-top: 1rem;
+    width: 70%;
+    height: 100%;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer ul {
+    list-style: none;    
+    display: flex;
+    flex-direction: column;    
+}
+
+.footer ul li a{
+    color:rgba(247, 240, 240, 0.5);
+    text-decoration: none;
+}
+
+.footer ul li a:hover{
+    color:rgba(247, 240, 240, 0.849);;
+}

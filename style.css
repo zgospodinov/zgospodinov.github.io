@@ -25,7 +25,8 @@ html{
 
 body {
     background: url('imgs/bg8-min.jpg')  top;
-    height: auto;
+    background-repeat: no-repeat repeat;
+    height: 100%;
     max-width: 100%;
     -webkit-filter: opacity(0.95);
             filter: opacity(0.95);

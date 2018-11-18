@@ -1,0 +1,13 @@
+#certificatesPage{
+    display: flex;
+    background-color: rgba(250, 235, 215, 0.24);
+    padding: 1rem;
+
+}
+
+#certificatesPage h1{
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+

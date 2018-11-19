@@ -99,6 +99,24 @@ main{
     cursor: pointer;
 }
 
+.certificates-cards{
+    /* background-color: red; */
+    display: flex;
+}
+
+.card{
+    /* background-color: red; */
+    width: 18rem;
+
+}
+
+.certificates-cards .card:nth-of-type(2n){
+    background-color: yellow;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    /* width: 20rem; */
+}
+
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
     .modal-content {

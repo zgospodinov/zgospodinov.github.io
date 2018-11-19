@@ -1,5 +1,4 @@
-function getPreview (id) {
-  // alert(id)
+function getPreview (id) { 
 
   // Get the modal
   var modal = document.getElementById('myModal')

@@ -18,7 +18,13 @@ main{
 /* Modals */
 /* Style the Image Used to Trigger the Modal */
 #myImg,
-#myImg1{
+#myImg1,
+#myImg2,
+#myImg3,
+#myImg4,
+#myImg5,
+#myImg6,
+#myImg7{
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
@@ -33,7 +39,13 @@ main{
 }
 
 #myImg:hover,
-#myImg1:hover {opacity: 0.7;}
+#myImg1:hover,
+#myImg2:hover,
+#myImg3:hover,
+#myImg4:hover,
+#myImg5:hover,
+#myImg6:hover,
+#myImg7:hover {opacity: 0.7;}
 
 /* The Modal (background) */
 .modal {
@@ -102,16 +114,18 @@ main{
 .certificates-cards{
     /* background-color: red; */
     display: flex;
+    flex-wrap: wrap;
 }
 
 .card{
-    /* background-color: red; */
-    width: 18rem;
-
+    background-color: rgba(158, 158, 158, 0.404);;
+    width: 15rem;
+    margin-top: 1rem;
 }
 
+
 .certificates-cards .card:nth-of-type(2n){
-    background-color: yellow;
+    /* background-color: yellow; */
     margin-left: 1rem;
     margin-right: 1rem;
     /* width: 20rem; */

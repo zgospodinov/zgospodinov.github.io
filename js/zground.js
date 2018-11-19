@@ -11,7 +11,9 @@ function getPreview (id) {
     modal.style.display = 'block'
     modalImg.src = this.src
     captionText.innerHTML = this.alt
+    modal.scrollIntoView();
   }
+
 
   // Get the <span> element that closes the modal
   var span = document.getElementsByClassName('close')[0]

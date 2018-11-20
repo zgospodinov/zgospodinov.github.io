@@ -1,0 +1,44 @@
+main {
+    width: 100%;
+    align-items: center ;
+    margin: 0 auto ;
+}
+
+.certificates-cards {
+    /* background-color: yellow; */
+    margin: 0 auto ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 80%;
+}
+
+.certificates-cards .card {
+    width: 100% ;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    align-items: center ;
+    background-color: transparent;
+    border: none;
+}
+
+.certificates-cards .card img{    
+    width: 100%;
+}
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .container .certificates-cards {
+        
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

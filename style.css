@@ -39,10 +39,10 @@ body {
     -moz-transition: color 0.2s, border-color 0.2s;
     -ms-transition: color 0.2s, border-color 0.2s;
     -o-transition: color 0.2s, border-color 0.2s;
-    -webkit-border-radius: ;
+    /* -webkit-border-radius: ;
     -moz-border-radius: ;
     -ms-border-radius: ;
-    -o-border-radius: ;
+    -o-border-radius: ; */
 }
 
 #fa-hamburger:hover {
@@ -52,6 +52,7 @@ body {
 
 #logo {
     color: var(--main-links-color);
+    
     border-bottom: 2px solid transparent;
     -webkit-transition: border-bottom 0.2s, color 0.2s;
     transition: border-bottom 0.2s, color 0.2s;

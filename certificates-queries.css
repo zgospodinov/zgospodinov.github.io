@@ -1,12 +1,12 @@
 main {
     width: 100%;
-    align-items: center ;
-    margin: 0 auto ;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .certificates-cards {
     /* background-color: yellow; */
-    margin: 0 auto ;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -15,22 +15,54 @@ main {
 }
 
 .certificates-cards .card {
-    width: 100% ;
+    width: 100%;
     margin: 0 auto !important;
     padding: 0 !important;
-    align-items: center ;
+    align-items: center;
     background-color: transparent;
     border: none;
 }
 
-.certificates-cards .card img{    
+.certificates-cards .card img {
     width: 100%;
 }
 
 /*  Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-    .container .certificates-cards {
+@media (min-width: 576px) {}
+
+@media (min-width: 655px) {
+
+    main {
+        width: 100%;
+        align-items: flex-start;
+        margin: 0;
+    }
+
+.container{
+    margin-top: 3rem;
+}
+    .certificates-cards{
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: initial;
+        align-items:flex-start;
+        flex-wrap: wrap;
+        justify-items: flex-start;
         
+        /* background-color: aqua;         */
+    }
+    
+
+    .certificates-cards .card  {
+        width: 30%;       
+        margin:0;
+        padding: 0;
+     
+        /* background-color: red; */
+        border: none;
+
+        flex-basis: 275px;
     }
 }
 
@@ -38,7 +70,43 @@ main {
 @media (min-width: 768px) {}
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+
+    .certificates-cards{
+        
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .certificates-cards .card  {
+        width: 30%;       
+        margin-left: 4px;
+        padding: 0;
+     
+        /* background-color: red; */
+        border: none;
+
+        flex-basis: 250px;
+    }
+}
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+
+    .certificates-cards{
+        
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .certificates-cards .card  {
+        width: 30%;       
+        margin-left: 1px !important;
+        
+     
+        /* background-color: red; */
+        border: none;
+
+        flex-basis: 275px;
+    }
+}

@@ -39,13 +39,17 @@ body{
   }
 
   body {
-    background: url('imgs/bg8-min.jpg') top;
-    height: auto !important;
-    max-width: 100% !important;
+    background: url('imgs/bg8-min-resized.jpg')no-repeat center center fixed;
+
+    height: 100%;
+    max-width: 100%;
     -webkit-filter: opacity(0.95);
     filter: opacity(0.95);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    color: white; 
+    color: white;
   }
 
   .footer{
@@ -88,13 +92,17 @@ body{
   }
 
   body {
-    background: url('imgs/bg8-min.jpg') top;
-    height: auto;
+    background: url('imgs/bg8-min-resized.jpg')no-repeat center center fixed;
+
+    height: 100%;
     max-width: 100%;
     -webkit-filter: opacity(0.95);
     filter: opacity(0.95);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    color: white;   
+    color: white;
   }
 
   .footer{
@@ -113,11 +121,15 @@ body{
   }
 
   body {
-    background: url('imgs/bg8-min.jpg') top;
-    height: auto;
+    background: url('imgs/bg8-min-resized.jpg')no-repeat center center fixed;
+
+    height: 100%;
     max-width: 100%;
     -webkit-filter: opacity(0.95);
     filter: opacity(0.95);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     color: white;
   }
@@ -134,11 +146,15 @@ body{
 
 @media only screen and (min-width:1200px) {
   body{
-    background: url('imgs/bg8-min.jpg') top;
-    height: auto;
+    background: url('imgs/bg8-min-resized.jpg')no-repeat center center fixed;
+
+    height: 100%;
     max-width: 100%;
     -webkit-filter: opacity(0.95);
     filter: opacity(0.95);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     color: white;
   }

@@ -38,27 +38,28 @@ main {
         margin: 0;
     }
 
-.container{
-    margin-top: 3rem;
-}
-    .certificates-cards{
+    .container {
+        margin-top: 3rem;
+    }
+
+    .certificates-cards {
         margin: 0;
         width: 100%;
         display: flex;
         flex-direction: initial;
-        align-items:flex-start;
+        align-items: flex-start;
         flex-wrap: wrap;
         justify-items: flex-start;
-        
+
         /* background-color: aqua;         */
     }
-    
 
-    .certificates-cards .card  {
-        width: 30%;       
-        margin:0;
+
+    .certificates-cards .card {
+        width: 30%;
+        margin: 0;
         padding: 0;
-     
+
         /* background-color: red; */
         border: none;
 
@@ -72,17 +73,17 @@ main {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-    .certificates-cards{
-        
+    .certificates-cards {
+
         width: 90%;
         margin: 0 auto;
     }
 
-    .certificates-cards .card  {
-        width: 30%;       
+    .certificates-cards .card {
+        width: 30%;
         margin-left: 4px;
         padding: 0;
-     
+
         /* background-color: red; */
         border: none;
 
@@ -92,18 +93,21 @@ main {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
-    .certificates-cards{
-        
-        width: 90%;
+    .container {
         margin: 0 auto;
     }
 
-    .certificates-cards .card  {
-        width: 30%;       
-        margin-left: 1px !important;
-        
-     
+    .certificates-cards {
+        width: 90%;
+        margin: 0 auto;
+        align-content: space-between;
+    }
+
+    .certificates-cards .card {
+        width: 30%;
+        /* margin-left: 1px !important; */
+
+
         /* background-color: red; */
         border: none;
 
